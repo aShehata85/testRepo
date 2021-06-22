@@ -1,0 +1,105 @@
+:root {
+    /* to make a variable to call anytime*/
+    --nav-background: black;
+    --main-color: white;
+    --hover-color: red;
+
+}
+
+* {
+    margin: 10px;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    padding: 0%;
+}
+
+.clear {
+    clear: both;
+}
+
+
+header .logo {
+
+    display: inline;
+    font-size: 40px;
+    margin: 10px 10px;
+}
+
+header .icons {
+    float: right;
+    font-size: 30px;
+}
+
+header .icons .fab {
+    margin: 0% 0%;
+}
+
+header .icons .fab:hover {
+    color: red;
+}
+
+
+nav .menu {
+    margin: 3% 0;
+    padding: 1%;
+    background-color: var(--nav-background);
+    color: var(--main-color);
+}
+
+nav .menu li {
+    display: inline;
+    margin: 0 1.3%;
+}
+
+nav .menu li:hover {
+    color: var(--hover-color);
+
+}
+
+.image {
+    float: left;
+    margin: 0% 2% 0% 0%;
+}
+
+.title {
+    font-size: 100px;
+}
+
+.text {
+    margin: 0% 0%;
+}
+
+.text .more {
+    text-decoration: none;
+
+    color: black;
+    float: right;
+}
+
+.text .more:hover {
+    color: red;
+}
+
+
+/*
+nav .menu .drop-menu .drop-down {
+    background-color: var(--dropdown-background);
+    color: var(--dropdown-color);
+    overflow: hidden;
+    transition: all 1.5s ease-in-out;
+
+}
+
+nav .menu .drop-menu .drop-down li {
+    padding: 5px 0;
+    display: none;
+    width: 50%;
+}
+
+nav .menu .drop-menu:hover .drop-down li {
+    display: block;
+}
+*/
